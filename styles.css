@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+  background-image: linear-gradient(bisque, white);
+}
+
+a {
+  color: rgb(4, 4, 4);
+}
+
+.footer{
+  font-size: 16px;
+  width:100%;
+  margin-left: 150px;
+}
+.banner {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+
+.main-container{
+  width: 75%;
+  margin: auto;
+}
+
+.nav {
+  background-image: linear-gradient(180deg, rgb(145, 1, 255), bisque);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 75%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.home-photo,
+.carter-photo,
+.chase-photo,
+.Russ-photo,
+.carter-photo3,
+.carter-photo4,
+.carter-by-fire {
+  display: flex;
+  width: 100%;
+  /* Adjusted to 100% */
+  max-width: 100%;
+  /* Added max-width to ensure flexibility */
+}
+
+h3 {
+  font-size: 75px;
+}
+
+.welcome {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.indent-p {
+  width: 714px;
+  height: 714px;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 100px auto;
+}
+
+.stickycontentbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.carter-photos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  /* Adjusted to 100% */
+  max-width: 720px;
+  margin: auto auto;
+  /* Added max-width to set a limit */
+}
+
+.carter-photo,
+.carter-photo3,
+.carter-by-fire {
+  max-width: 45%;
+  /* Adjusted max-width */
+  flex: 1;
+  margin: auto;
+}
+
+.carter-photo3 {
+  order: 1;
+}
+
+.carter-photo4 {
+  order: 2;
+  /* align-self: auto; */
+  max-width: 45%;
+  flex: 0;
+  margin: 25px;
+  /* Adjusted align-self */
+}
+
+.Russ-photo {
+  width: 55%;
+  margin: auto;
+}
+
+/* paragraph styles */
+.birthdate{
+  margin: 125px;
+  margin-right: 0;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
