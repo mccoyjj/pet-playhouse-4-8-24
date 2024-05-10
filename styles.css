@@ -3,6 +3,7 @@ body {
     overflow: scroll;
     overflow-x: hidden;
   background-image: linear-gradient(bisque, white);
+  font-family: Verdana;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 .footer{
   font-size: 16px;
   width:100%;
-  margin-left: 150px;
+  margin-left: 175px;
 }
 .banner {
   display: block;
@@ -32,10 +33,9 @@ a {
   justify-content: center;
   gap: 20px;
   width: 75%;
-  padding-top: 20px;
+  padding-top: 10px;
   margin: auto;
 }
-
 .home-photo,
 .carter-photo,
 .chase-photo,
@@ -50,23 +50,33 @@ a {
   /* Added max-width to ensure flexibility */
 }
 
+.chase-photo{
+  width: 1069px;
+  margin: auto;
+}
+
 h3 {
   font-size: 75px;
 }
 
 .welcome {
+  width: 714px;
+  margin: auto;
   margin-top: 200px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 .indent-p {
   width: 714px;
   height: 714px;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 20px;
   margin: 100px auto;
 }
+
 
 .stickycontentbar {
   position: fixed;
@@ -79,7 +89,7 @@ h3 {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
+  width: 1069px;
   /* Adjusted to 100% */
   max-width: 720px;
   margin: auto auto;
@@ -114,9 +124,29 @@ h3 {
 }
 
 /* paragraph styles */
+.russ-heading{
+  margin-bottom: 20px;
+
+}
 .birthdate{
-  margin: 125px;
+  margin: 100px;
   margin-right: 0;
   font-size: 35px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Geneva;
+}
+
+/* DESCRIPTION STYLES */
+.russ-desc {
+  width: 714px;
+  height: 700px;
+  text-align: center;
+  font-size: 25px;
+  margin: 100px auto;
+}
+.home-desc {
+  width: 714px;
+  height: 700px;
+  text-align: center;
+  font-size: 25px;
+  margin: 100px auto;
 }
